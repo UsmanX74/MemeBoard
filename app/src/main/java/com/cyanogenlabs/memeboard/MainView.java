@@ -159,6 +159,7 @@ public class MainView extends View {
                     credits = 0;
                 }
                 break;
+                //ok
             case MotionEvent.ACTION_UP:
                 credits = 0;
                 if(memeboardScreen && bitmapToRect(Assets.button,sW*0.05f,sH*0.16f).contains(X,Y)){
